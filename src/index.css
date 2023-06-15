@@ -20,29 +20,22 @@ nav{
   display: flex;
   flex-direction: column;
   padding: 10px 10px;
-  /* border: black solid 1px; */
 }
 
 .nav-title{
   font-size: 2.2rem;
-   /* margin-left: 150px; */
-   /* align-self: flex-end; */
-   /* border: black solid 1px; */
 }
 
 form{
   display: flex;
   align-items: center;
   margin-top: 10px;
-  /* margin-left: 20px; */
-  /* border: black solid 1px; */
 }
 
 .search-button{
   background-color: #77997F;
   color: white;
   border: none;
-  /* border: black solid 1px; */
 }
 
 #search-text{
@@ -52,21 +45,47 @@ form{
   border: none;
   border-bottom: white solid 2px;
   margin-left:5px;
-  /* border: black solid 1px; */
   outline:none;
 }
 
 /* DefinitionResult */
 section{
   max-width: 80%;
-  background-color: cyan;
   margin: 0 auto;
   padding: 10px ;
 }
 
+section ul{
+  font-size: 62.5%;
+}
+
 .word{
   color: #77997F;
-  font-size: 2.2rem;
+  font-size: 2.8rem;
+}
+
+.partOfSpeech{
+  font-size: 2.0rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.partOfSpeech > ul{
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+.definition{
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.example{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin-left: 50px;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -93,6 +112,10 @@ section{
     padding: 20px ;
   }
 
+  .word{
+    font-size: 3rem;
+  }
+
 }
 
 @media (min-width: 800px) {
@@ -106,6 +129,8 @@ section{
     max-width: 60%;
     padding: 40px ;
   }
-
-
+  
+  .word{
+    font-size: 3.6rem;
+  }
 }
