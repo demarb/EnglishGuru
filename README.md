@@ -12,3 +12,6 @@ Display a message if the word is not found
 
 ### API Used:
 [freeDictionaryAPI](https://github.com/meetDeveloper/freeDictionaryAPI)
+
+### Preview:
+![App Preview](./preview.png)
